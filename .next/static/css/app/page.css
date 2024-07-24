@@ -1,0 +1,66 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/Header.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+header {
+    background-color: rgb(45, 74, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    color: aliceblue;
+    padding: 20px;
+}
+
+img {
+    height: 50px;
+    width: 140px;
+}
+
+a {
+    padding: 10px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/Navegation.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.leftNavegation {
+    background-color: rgb(195, 220, 252);
+    height: 100vh;
+    width: 27vw;
+}
+
+.grid {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 40px;
+}
+
+.grid button {
+    text-align: left; 
+    width: 100%; 
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(228, 240, 255);
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/components/Feed.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.totalFeed {
+    background-color: rgb(223, 223, 223);
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+}
+
+.h2-postage, .label-postage, #input-postage, .button-postage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#input-postage {
+    width: 330px;
+    padding-left: 10px;
+}
